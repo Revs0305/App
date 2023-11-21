@@ -70,7 +70,7 @@ if (isset($parametro)) {
             <span class="download-text">Visitar iOS | PC</span>
           </a>
         </div>
-        <hr>
+        <br>
         <!-- Mostramos el mensaje -->
         <?php if (isset($mensaje)) { ?>
           <div class="text-center alert alert-success" role="alert">
