@@ -35,11 +35,13 @@ if (isset($parametro)) {
           <img src="assets/img/logow.png" alt="iRaffle Logo">
         </a>
         <div class="d-flex justify-content-end align-items-center social-items">
-          <a href="<?=$whatsapp_g?>" class="text-white mr-3 text-decoration-none d-flex align-items-center" target="_blank">
+          <a href="<?= $whatsapp_g ?>" class="text-white mr-3 text-decoration-none d-flex align-items-center"
+            target="_blank">
             <ion-icon name="logo-whatsapp" class="logo-whatsapp"></ion-icon>
             <span class="align-middle">WhatsApp</span>
           </a>
-          <a href="<?=$telegram_g?>" class="text-white mr-3 text-decoration-none d-flex align-items-center" target="_blank">
+          <a href="<?= $telegram_g ?>" class="text-white mr-3 text-decoration-none d-flex align-items-center"
+            target="_blank">
             <i class='bx bxl-telegram logo-telegram'></i>
             <span class="align-middle">Telegram</span>
           </a>
@@ -70,15 +72,17 @@ if (isset($parametro)) {
             <span class="download-text">Visitar iOS | PC</span>
           </a>
         </div>
-        <br>
-        <!-- Mostramos el mensaje -->
-        <?php if (isset($mensaje)) { ?>
-          <div class="text-center alert alert-success" role="alert">
-            <p>
-              <?php echo $mensaje ?>
-            </p>
-          </div>
-        <?php } ?>
+        <br><br>
+        <div class="container">
+          <!-- Mostramos el mensaje -->
+          <?php if (isset($mensaje)) { ?>
+            <div class="text-center alert alert-success" role="alert">
+              <p>
+                <?php echo $mensaje ?>
+              </p>
+            </div>
+          <?php } ?>
+        </div>
       </div>
     </div>
   </section>
