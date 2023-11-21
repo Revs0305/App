@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Helvetica Neue', sans-serif; /* Cambia la fuente a una más minimalista */
+}
+
+header {
+    z-index: 1000;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.container {
+    z-index: 2;
+}
+
+.navbar-brand img {
+    max-height: 80px; /* Ajusta la altura máxima del logo según tus necesidades */
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold; /* Ajusta el grosor del texto según tus preferencias */
+}
+
+.social-items a {
+    margin-right: 8px;
+}
+
+.social-items a:hover {
+    transform: scale(1.2); /* Ajusta la escala según tus preferencias */
+}
+
+.logo-whatsapp {
+    font-size: 30px; /* Ajusta el tamaño del icono */
+    margin-right: 8px; /* Ajusta el espacio entre el icono y el texto */
+    color: #25d366; /* Color de WhatsApp */
+}
+
+.logo-telegram {
+    font-size: 30px; /* Ajusta el tamaño del icono */
+    margin-right: 8px; /* Ajusta el espacio entre el icono y el texto */
+    color: #2AABEE;
+}
+
+.btn-primary {
+    background-color: #6366f1;
+    border-color: #6366f1;
+    font-weight: bold; /* Ajusta el grosor del texto según tus preferencias */
+    box-shadow: 0 4px 6px rgba(99, 102, 241, 0.2); /* Efecto de sombra */
+}
+
+.btn-primary:hover {
+    border-color: #e64c3c;
+    box-shadow: 0 6px 8px rgba(99, 102, 241, 0.4); /* Efecto de sombra al hacer hover */
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+}
+
+.android-icon {
+    font-size: 24px;
+    margin-right: 8px; /* Ajusta el espacio entre el icono y el texto */
+}
+
+.diamond-icon {
+    font-size: 24px;
+    margin-right: 8px;
+    color:aqua;
+}
+
+.download-text {
+    font-weight: bold;
+}
