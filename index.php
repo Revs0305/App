@@ -1,7 +1,5 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 0);
-
+// Comentario para probar Git
 $whatsapp_g = "https://chat.whatsapp.com/D4cOIx2MU0AA8xO7DJTmGC";
 $telegram_g = "https://t.me/+oFAJdHN5TRg0ZDNh";
 // Leer URL
